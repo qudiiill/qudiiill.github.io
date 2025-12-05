@@ -23,6 +23,7 @@
                         <li><a href="#home">Beranda</a></li>
                         <li><a href="#layanan">Layanan</a></li>
                         <li><a href="#cara-kerja">Cara Kerja</a></li>
+                        <li><a href="#upload-gambar">Upload</a></li>
                         <li><a href="#testimoni">Testimoni</a></li>
                         <li><a href="#kontak">Kontak</a></li>
                     </ul>
@@ -99,6 +100,47 @@
                         <div class="step-number">4</div>
                         <h3>Pengiriman</h3>
                         <p>Barang dikirim ke alamat Anda setelah pelunasan</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Upload Gambar Section -->
+        <section id="upload-gambar" class="upload-section">
+            <div class="container">
+                <h2 class="section-title">Upload Gambar Produk</h2>
+                <p class="section-subtitle">Kirim foto produk yang Anda inginkan, dan kami akan carikan untuk Anda!</p>
+
+                <div class="upload-container">
+                    <div class="upload-area" id="uploadArea">
+                        <div class="upload-icon">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                        </div>
+                        <h3>Drag & Drop Gambar Disini</h3>
+                        <p>atau klik untuk memilih file</p>
+                        <input type="file" id="fileInput" accept="image/*" multiple hidden>
+                        <button class="btn-upload" onclick="document.getElementById('fileInput').click()">
+                            <i class="fas fa-folder-open"></i> Pilih Gambar
+                        </button>
+                    </div>
+
+                    <div class="image-preview-container" id="imagePreviewContainer">
+                        <!-- Preview images will be inserted here -->
+                    </div>
+                </div>
+
+                <div class="upload-info">
+                    <div class="info-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Format: JPG, PNG, WEBP</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Maksimal 5MB per gambar</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Upload hingga 10 gambar</span>
                     </div>
                 </div>
             </div>
