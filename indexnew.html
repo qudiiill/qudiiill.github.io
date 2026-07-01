@@ -26,7 +26,6 @@
                         <li><a href="#home">Beranda</a></li>
                         <li><a href="#layanan">Layanan</a></li>
                         <li><a href="#cara-kerja">Cara Kerja</a></li>
-                        <li><a href="#upload-gambar">Upload</a></li>
                         <li><a href="#katalog">Katalog</a></li>
                         <li><a href="#testimoni">Testimoni</a></li>
                         <li><a href="#kontak" class="nav-btn">Hubungi Kami</a></li>
@@ -119,43 +118,6 @@
                 </div>
             </div>
         </section>
-
-        <section id="upload-gambar" class="upload-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Upload Gambar Produk</h2>
-                    <p>Kirim foto produk yang Anda inginkan, dan kami akan carikan untuk Anda!</p>
-                </div>
-
-                <div class="upload-box-wrapper">
-                    <div class="upload-area" id="uploadArea">
-                        <div class="upload-icon-box">
-                            <i class="fas fa-cloud-upload-alt"></i>
-                        </div>
-                        <h3>Drag & Drop Gambar Disini</h3>
-                        <p>atau klik untuk memilih file</p>
-                        <input type="file" id="fileInput" accept="image/*" multiple hidden>
-                        <button class="btn btn-secondary-sm" onclick="document.getElementById('fileInput').click()">
-                            <i class="fas fa-folder-open"></i> Pilih Gambar
-                        </button>
-                    </div>
-
-                    <div class="image-preview-container" id="imagePreviewContainer">
-                        </div>
-                </div>
-
-                <div class="upload-info">
-                    <div class="info-item"><i class="fas fa-check-circle"></i> Format: JPG, PNG, WEBP</div>
-                    <div class="info-item"><i class="fas fa-check-circle"></i> Maksimal 5MB per gambar</div>
-                    <div class="info-item"><i class="fas fa-check-circle"></i> Upload hingga 10 gambar</div>
-                </div>
-                
-                <div class="upload-action-btn" id="submitUploadBox" style="display: none; margin-top: 20px; text-align: center;">
-                    <button class="btn btn-primary" id="btnKirimFoto"><i class="fab fa-whatsapp"></i> Kirim Foto via WhatsApp</button>
-                </div>
-            </div>
-        </section>
-
 
         <section id="katalog" class="catalog-section">
             <div class="container">
@@ -343,7 +305,8 @@
             </div>
         </footer>
 
-    </div><script src="script.js"></script>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
