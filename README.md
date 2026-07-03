@@ -18,5 +18,5 @@ Landing page responsif berbasis *mobile-first* untuk layanan jasa titip (Jastip)
 ```text
 ├── index.html       # Struktur utama halaman landing page
 ├── style.css        # Gaya tampilan dan layout (bersih dari fitur upload lama)
-├── script.js       # Logika interaksi JavaScript (aman dari error DOM)
+├── script.js        # Logika interaksi JavaScript (aman dari error DOM)
 └── README.md        # Dokumentasi proyek ini
